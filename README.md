@@ -65,11 +65,11 @@ $ cd <repository-name>.github.io
 # Build the site using Jekyll and serve the site
 $ bundle exec jekyll serve
 
-# If for whatever reason the above line failed or results in error (i.e: jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer), try line below, and head over to 127.0.0.1:3000 in your browser: 
-$ bundler exec jekyll build && bash -c 'cd _site && python -m http.server 3000'
+# If for whatever reason the above line failed or results in error (i.e: jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer), try line below: 
+$ bundler exec jekyll build && bash -c 'cd _site && python -m http.server 4000'
 ```
 
-Your site should be available at <http://localhost:4000>.
+Your site should be available at <http://localhost:3000>.
 
 Develop your site, commit new changes and push to GitHub master branch, any new changes will be reflected on GitHub Pages in a few seconds after you push the commits.
 
