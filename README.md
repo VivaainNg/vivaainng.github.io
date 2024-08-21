@@ -56,14 +56,17 @@ Make sure all prerequisites are installed and you had forked the repository.
 Run the following command in your terminal:
 
 ```sh
-# Clone your forked repository
-git clone https://github.com/username/minimal-mistakes-jekyll.git
+# Clone your forked repository, be sure to rename your repo
+$ git clone https://github.com/username/<repository-name>.github.io.git
 
 # Change directory
-cd minimal-mistakes-jekyll
+$ cd <repository-name>.github.io
 
 # Build the site using Jekyll and serve the site
-bundle exec jekyll serve
+$ bundle exec jekyll serve
+
+# If for whatever reason the above line failed or results in error (i.e: jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer), try line below, and head over to 127.0.0.1:3000 in your browser: 
+$ bundler exec jekyll build && bash -c 'cd _site && python -m http.server 3000'
 ```
 
 Your site should be available at <http://localhost:4000>.
