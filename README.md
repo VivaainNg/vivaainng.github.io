@@ -259,4 +259,5 @@ Read the official Jekyll [documentation](https://jekyllrb.com/docs/home/) to fur
 
 
 ## Credits
-Theme by [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) release 4.8.0
+* Theme by [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) release 4.8.0
+* [Lim Yun Kai](https://limyunkai.com/) for the forked repo 
