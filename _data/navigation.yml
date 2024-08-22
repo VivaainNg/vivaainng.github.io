@@ -5,7 +5,7 @@ main:
   - title: "Posts"
     url: /posts/
   - title: "Source Code"
-    url: https://github.com/limyunkai19/minimal-mistakes-jekyll
+    url:  https://github.com/VivaaindreanNg/vivaaindreanng.github.io
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

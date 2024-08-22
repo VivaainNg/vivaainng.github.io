@@ -3,7 +3,7 @@
 
 Ready to use Jekyll template with Minimal Mistakes theme. Instant blog without knowing git and command line. Just fork it to use for your GitHub Pages.
 
-Demo: <https://limyunkai19.github.io/minimal-mistakes-jekyll> &nbsp; | &nbsp; <https://limyunkai.com>
+Demo: <https://vivaaindreanng.github.io> 
 
 ## Table of Content
 - [Getting Started](#getting-started)
@@ -69,7 +69,7 @@ $ bundle exec jekyll serve
 $ bundler exec jekyll build && bash -c 'cd _site && python -m http.server 4000'
 ```
 
-Your site should be available at <http://localhost:3000>.
+Your site should be available at <http://localhost:4000>.
 
 Develop your site, commit new changes and push to GitHub master branch, any new changes will be reflected on GitHub Pages in a few seconds after you push the commits.
 
