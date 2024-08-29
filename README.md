@@ -67,6 +67,7 @@ $ bundle exec jekyll serve
 
 # If for whatever reason the above line failed or results in error (i.e: jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer), try line below: 
 $ bundler exec jekyll build && bash -c 'cd _site && python -m http.server 4000'
+# Note that the above unfortunately doesn't auto-reload your local to save changes, so you'll might need to restart the above command once you've made some save changes.
 ```
 
 Your site should be available at <http://localhost:4000>.
