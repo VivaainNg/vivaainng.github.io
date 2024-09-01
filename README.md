@@ -55,17 +55,23 @@ Make sure all prerequisites are installed and you had forked the repository.
 
 Run the following command in your terminal:
 
+* Clone your forked repository, be sure to rename your repo
 ```sh
-# Clone your forked repository, be sure to rename your repo
 $ git clone https://github.com/username/<repository-name>.github.io.git
+```
 
-# Change directory
+* Change directory
+```sh
 $ cd <repository-name>.github.io
+```
 
-# Build the site using Jekyll and serve the site
+* Build the site using Jekyll and serve the site
+```sh
 $ bundle exec jekyll serve
+```
 
-# If for whatever reason the above line failed or results in error (i.e: jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer), try line below: 
+* P/S: If for whatever reason the above line failed or results in error (i.e: jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer), try line below: 
+```sh
 $ bundler exec jekyll build && bash -c 'cd _site && python -m http.server 4000'
 # Note that the above unfortunately doesn't auto-reload your local to save changes, so you'll might need to restart the above command once you've made some save changes.
 ```
